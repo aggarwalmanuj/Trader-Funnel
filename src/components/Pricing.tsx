@@ -29,10 +29,10 @@ function PriceCard({ tier }: { tier: Tier }) {
   const dark = tier.featured;
   return (
     <article
-      className={`reveal flex h-full flex-col rounded-2xl border p-8 text-left transition-transform duration-200 ${
+      className={`reveal group flex h-full flex-col rounded-2xl border p-8 text-left transition-all duration-300 ease-out hover:-translate-y-2 ${
         dark
-          ? "border-white/10 bg-gradient-to-b from-[#1f4c61] to-[#173A4B] text-text-light shadow-[0_10px_34px_-2px_rgba(0,0,0,0.14),0_2.3px_7.8px_-1.3px_rgba(0,0,0,0.11),inset_0_-1px_0_0_rgba(26,25,25,0.12)] lg:-translate-y-3"
-          : "border-[var(--color-border)] bg-[#173A4B] text-text shadow-[0_5.1px_9.2px_-3.75px_rgba(0,0,0,0.03),0_16px_28.8px_-5px_rgba(0,0,0,0.02),inset_0_-1px_0_0_rgba(10,10,10,0.06)]"
+          ? "border-white/10 bg-gradient-to-b from-[#1f4c61] to-[#173A4B] text-text-light shadow-[0_10px_34px_-2px_rgba(0,0,0,0.14),0_2.3px_7.8px_-1.3px_rgba(0,0,0,0.11),inset_0_-1px_0_0_rgba(26,25,25,0.12)] hover:border-signal/40 hover:shadow-[0_22px_50px_-8px_rgba(0,0,0,0.32)] lg:-translate-y-3 lg:hover:-translate-y-5"
+          : "border-[var(--color-border)] bg-[#173A4B] text-text shadow-[0_5.1px_9.2px_-3.75px_rgba(0,0,0,0.03),0_16px_28.8px_-5px_rgba(0,0,0,0.02),inset_0_-1px_0_0_rgba(10,10,10,0.06)] hover:border-signal/40 hover:shadow-[0_20px_44px_-10px_rgba(0,0,0,0.28)]"
       }`}
     >
       {dark && (

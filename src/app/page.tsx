@@ -1,6 +1,7 @@
 import Reveal from "@/components/ui/Reveal";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import TrustedBy from "@/components/TrustedBy";
 import ProblemSection from "@/components/ProblemSection";
 import WhatIsHappening from "@/components/WhatIsHappening";
 import WhatAIMergeDoes from "@/components/WhatAIMergeDoes";
@@ -22,6 +23,7 @@ export default function Page() {
       <Header />
       <main className="overflow-x-hidden">
         <Hero />
+        <TrustedBy />
         <ProblemSection />
         <WhatIsHappening />
         <WhatAIMergeDoes />
