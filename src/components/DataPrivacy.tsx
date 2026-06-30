@@ -4,7 +4,7 @@ import { CONTACT_EMAIL } from "@/data/navigation";
 
 export default function DataPrivacy() {
   return (
-    <Section id="privacy" bg="bg-bg-alt">
+    <Section id="privacy" bg="bg-bg">
       <div className="reveal mx-auto max-w-2xl text-center">
         <Heading className="">
           Your data is safe

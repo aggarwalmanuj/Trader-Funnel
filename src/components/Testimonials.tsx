@@ -3,7 +3,7 @@ import { TESTIMONIALS } from "@/data/testimonials";
 
 export default function Testimonials() {
   return (
-    <Section id="stories" bg="bg-bg" tone="dark">
+    <Section id="stories" bg="bg-bg-alt" tone="dark">
       <div className="reveal text-center">
         <Eyebrow dot>V · Voices</Eyebrow>
         <Heading tone="dark" className="mt-5">

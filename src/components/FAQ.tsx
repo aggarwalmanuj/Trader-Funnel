@@ -10,7 +10,7 @@ export default function FAQ() {
   return (
     <section
       id="faq"
-      className="bg-bg px-6 py-24 text-text sm:px-8 sm:py-28"
+      className="bg-bg-alt px-6 py-24 text-text sm:px-8 sm:py-28"
     >
       <div className="mx-auto w-full max-w-narrow">
         <div className="reveal text-center">

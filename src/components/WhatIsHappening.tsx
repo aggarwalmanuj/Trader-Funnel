@@ -2,7 +2,7 @@ import { Section, Eyebrow, Heading } from "@/components/ui/primitives";
 
 export default function WhatIsHappening() {
   return (
-    <Section id="the-gap" bg="bg-bg" tone="dark" align="left">
+    <Section id="the-gap" bg="bg-bg-alt" tone="dark" align="left">
       <div className="reveal max-w-prose">
         <Eyebrow dot>III · The Gap</Eyebrow>
         <Heading tone="dark" className="mt-5">

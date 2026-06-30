@@ -2,7 +2,7 @@ import { Section, Eyebrow, Heading } from "@/components/ui/primitives";
 
 export default function ProblemSection() {
   return (
-    <Section id="problem" bg="bg-bg-alt" align="left">
+    <Section id="problem" bg="bg-bg" align="left">
       <div className="reveal max-w-prose">
         <Eyebrow dot>II · The Pattern</Eyebrow>
         <Heading className="mt-5">

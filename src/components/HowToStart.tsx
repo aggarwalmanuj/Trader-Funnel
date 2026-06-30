@@ -3,7 +3,7 @@ import { CTA_LABEL } from "@/data/navigation";
 
 export default function HowToStart() {
   return (
-    <Section id="start" bg="bg-bg">
+    <Section id="start" bg="bg-bg-alt">
       <div className="reveal mx-auto max-w-2xl text-center">
         <Eyebrow dot>VII · Start Here</Eyebrow>
         <Heading className="mt-5">

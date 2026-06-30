@@ -3,7 +3,7 @@ import { CTA_HREF } from "@/data/navigation";
 
 export default function Teams() {
   return (
-    <Section id="teams" bg="bg-bg">
+    <Section id="teams" bg="bg-bg-alt">
       <div className="reveal max-w-3xl">
         <Eyebrow dot>VIII · Prop Firms &amp; Teams</Eyebrow>
         <Heading tone="dark" className="mt-5">

@@ -16,7 +16,7 @@ const CREDENTIALS = [
 
 export default function TrustedBy() {
   return (
-    <section id="trusted-by" className="bg-bg px-6 py-24 text-text sm:px-8 sm:py-28">
+    <section id="trusted-by" className="bg-bg-alt px-6 py-24 text-text sm:px-8 sm:py-28">
       <div className="mx-auto grid w-full max-w-content gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-center lg:gap-16">
         <div className="reveal">
           <Eyebrow dot>Trusted by</Eyebrow>

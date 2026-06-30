@@ -2,7 +2,7 @@ import { Section, Eyebrow, Heading } from "@/components/ui/primitives";
 
 export default function WhatAIMergeDoes() {
   return (
-    <Section id="about" bg="bg-bg-alt" align="left">
+    <Section id="about" bg="bg-bg" align="left">
       <div className="reveal max-w-prose">
         <Eyebrow dot>IV · The Method</Eyebrow>
         <Heading className="mt-5">

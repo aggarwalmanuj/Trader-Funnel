@@ -14,7 +14,7 @@ const NO = [
 
 export default function IsThisForYou() {
   return (
-    <Section id="fit" bg="bg-bg-alt">
+    <Section id="fit" bg="bg-bg">
       <div className="reveal text-center">
         <Eyebrow dot>IX · Fit</Eyebrow>
         <Heading className="mt-5">

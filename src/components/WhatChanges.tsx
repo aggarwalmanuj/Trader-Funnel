@@ -18,7 +18,7 @@ const CHANGES = [
 
 export default function WhatChanges() {
   return (
-    <Section id="changes" bg="bg-bg-alt">
+    <Section id="changes" bg="bg-bg">
       <div className="reveal max-w-prose">
         <Eyebrow dot>VI · The Shift</Eyebrow>
         <Heading className="mt-5">

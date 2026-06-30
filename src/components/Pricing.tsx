@@ -93,7 +93,7 @@ function PriceCard({ tier }: { tier: Tier }) {
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="bg-bg-alt px-6 py-24 text-text sm:px-8 sm:py-28">
+    <section id="pricing" className="bg-bg px-6 py-24 text-text sm:px-8 sm:py-28">
       {/* Framer container: centered flex column, max-width 1180px, gap 64px */}
       <div className="mx-auto flex w-full max-w-[1180px] flex-col items-center gap-16 px-0 phone:px-10">
         <div className="reveal text-center">
