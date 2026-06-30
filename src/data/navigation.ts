@@ -4,7 +4,6 @@ export const CTA_HREF =
 export const CTA_LABEL = "Get Your Free Belief Score";
 
 export const NAV_LINKS = [
-  { label: "Pricing", href: "#pricing" },
   { label: "Stories", href: "#stories" },
   { label: "FAQ", href: "#faq" },
   { label: "About", href: "#about" },
@@ -18,7 +17,6 @@ export const FOOTER_GROUPS = [
     links: [
       { label: "What AI Merge does", href: "#about" },
       { label: "Stories", href: "#stories" },
-      { label: "Pricing", href: "#pricing" },
       { label: "Is this for you?", href: "#fit" },
     ],
   },

@@ -10,7 +10,7 @@ export default function WhatIsHappening() {
         </Heading>
       </div>
 
-      <div className="reveal mt-10 grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
+      <div className="reveal mt-10 grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-center lg:gap-16">
         <div className="space-y-6 text-text-light/70">
           <p className="lead !text-text-light">
             Trading is not primarily a technical problem. Every trader who has
@@ -28,12 +28,19 @@ export default function WhatIsHappening() {
           </p>
         </div>
 
-        {/* Isolated key line */}
-        <div className="flex items-center self-stretch rounded-3xl border border-light-soft bg-dark-card p-8 lg:p-10">
-          <p className="font-serif text-2xl italic leading-snug text-text-light sm:text-3xl">
+        {/* Isolated key line — pull-quote with oversized quote mark + accent rule */}
+        <figure className="relative overflow-hidden rounded-3xl border border-light-soft bg-dark-card px-8 py-10 lg:px-10 lg:py-12">
+          <span
+            aria-hidden
+            className="pointer-events-none absolute -top-4 left-6 font-serif text-[7rem] leading-none text-accent/30 select-none"
+          >
+            &ldquo;
+          </span>
+          <blockquote className="relative mt-6 font-serif text-2xl italic leading-snug text-text-light sm:text-3xl">
             It is a story running underneath your decisions.
-          </p>
-        </div>
+          </blockquote>
+          <div className="mt-6 h-px w-16 bg-accent" />
+        </figure>
       </div>
 
       {/* The turn — emphasized closing statement */}

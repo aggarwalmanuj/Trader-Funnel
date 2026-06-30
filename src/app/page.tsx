@@ -8,7 +8,6 @@ import WhatAIMergeDoes from "@/components/WhatAIMergeDoes";
 import Testimonials from "@/components/Testimonials";
 import WhatChanges from "@/components/WhatChanges";
 import HowToStart from "@/components/HowToStart";
-import Pricing from "@/components/Pricing";
 import Teams from "@/components/Teams";
 import IsThisForYou from "@/components/IsThisForYou";
 import FAQ from "@/components/FAQ";
@@ -30,7 +29,6 @@ export default function Page() {
         <Testimonials />
         <WhatChanges />
         <HowToStart />
-        <Pricing />
         <Teams />
         <IsThisForYou />
         <FAQ />
