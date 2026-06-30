@@ -14,7 +14,7 @@ export default function FAQ() {
     >
       <div className="mx-auto w-full max-w-narrow">
         <div className="reveal text-center">
-          <Eyebrow dot>XI · Questions</Eyebrow>
+          <Eyebrow dot>X · Questions</Eyebrow>
           <Heading className="mt-5">
             Questions, answered clearly.
           </Heading>

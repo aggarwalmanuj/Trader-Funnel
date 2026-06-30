@@ -64,10 +64,23 @@ export default function Hero() {
               </GhostButton>
             </Reveal>
 
+            {/* Free / no-card reassurance — grouped tight under the CTA */}
+            <Reveal
+              as="p"
+              delay={600}
+              className="mt-5 text-[0.74rem] leading-snug tracking-wide text-text-muted/70 sm:mt-6 sm:text-[0.78rem]"
+            >
+              <span className="font-serif text-[15px] text-ink sm:text-base">
+                Absolutely free.
+              </span>
+              <span className="mx-2 text-text-muted/40">·</span>
+              No credit card required
+            </Reveal>
+
             <Reveal
               as="div"
               delay={700}
-              className="mt-12 flex items-center gap-4 sm:mt-16 sm:gap-6"
+              className="mt-14 flex items-center gap-4 sm:mt-16 sm:gap-6"
             >
               <span className="hairline-anim block h-px w-10 bg-text-muted/40 sm:w-12" />
               <p className="text-[0.74rem] leading-snug tracking-wide text-text-muted/70 sm:text-[0.78rem]">
