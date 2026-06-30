@@ -93,7 +93,7 @@ export function PrimaryButton({
   // `variant` is retained for API compatibility; both render the s-btn pill.
   void variant;
   return (
-    <Link href={href} className={`s-btn whitespace-nowrap ${className}`}>
+    <Link href={href} className={`s-btn sm:whitespace-nowrap ${className}`}>
       {children}
     </Link>
   );
@@ -113,7 +113,7 @@ export function GhostButton({
 }) {
   void tone;
   return (
-    <Link href={href} className={`s-btn-ghost whitespace-nowrap ${className}`}>
+    <Link href={href} className={`s-btn-ghost sm:whitespace-nowrap ${className}`}>
       {children}
     </Link>
   );

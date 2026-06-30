@@ -3,6 +3,9 @@ export const CTA_HREF =
 
 export const CTA_LABEL = "Get Your Free Belief Score";
 
+// Compact label for tight spots (navbar) where the full label overflows.
+export const CTA_LABEL_SHORT = "Free Belief Score";
+
 export const NAV_LINKS = [
   { label: "Stories", href: "#stories" },
   { label: "FAQ", href: "#faq" },

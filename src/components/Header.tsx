@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { NAV_LINKS, CTA_HREF, CTA_LABEL } from "@/data/navigation";
+import { NAV_LINKS, CTA_HREF, CTA_LABEL, CTA_LABEL_SHORT } from "@/data/navigation";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -37,9 +37,9 @@ export default function Header() {
         <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <Link
             href={CTA_HREF}
-            className="s-btn hidden text-[0.7rem] lg:inline-flex"
+            className="s-btn hidden whitespace-nowrap !px-7 !py-3 !text-[0.74rem] !tracking-[0.18em] lg:inline-flex"
           >
-            {CTA_LABEL}
+            {CTA_LABEL_SHORT}
           </Link>
 
           <button
@@ -85,7 +85,7 @@ export default function Header() {
           <Link
             href={CTA_HREF}
             onClick={() => setOpen(false)}
-            className="s-btn mt-5 w-full"
+            className="s-btn mt-5 w-full !px-4 !py-3 !text-[0.66rem] !tracking-[0.12em]"
           >
             {CTA_LABEL}
           </Link>

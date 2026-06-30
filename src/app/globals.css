@@ -69,6 +69,11 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
+  /* Guard against horizontal scroll on mobile: Header/Footer live outside
+     <main>, and effects like the hero halo (inset: -10%) can bleed past the
+     viewport edge. Clamp at the root so nothing causes sideways scroll. */
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Restore pointer cursor for interactive elements (from reference). */
@@ -376,6 +381,20 @@ summary,
   background: var(--ink);
   color: var(--primary-foreground);
   border-color: var(--ink);
+}
+
+/* Mobile: the long uppercase CTA label ("Get Your Free Belief Score") overflows
+   narrow screens. Tighten tracking + horizontal padding and allow wrapping so
+   it fits without changing the spacious desktop treatment. */
+@media (max-width: 639px) {
+  .s-btn,
+  .s-btn-ghost {
+    padding: 0.85rem 1.4rem;
+    letter-spacing: 0.14em;
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
+  }
 }
 
 /* Editorial input — flat with focus ring on the ink color. */
